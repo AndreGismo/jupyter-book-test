@@ -1,0 +1,15 @@
+title: Test jupyter book
+author: andreGismo
+logo: img/logo.jpg
+
+html:
+  extra_footer: |
+    <p>
+    Das ist alles nur ein...<br><br>
+    <img src='C:\Users\andre\Documents\GitHub\JUPYTERBOOK_TEST\jupyter-book-test\img\logo.jpg'
+    </p>
+    
+    
+sphinx:
+  config:
+    html_show_copyright: false
