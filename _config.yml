@@ -20,5 +20,5 @@ repository:
   branch: main
   
 launch_buttons:
-  binderhub_url: https://mybinder.org/v2/gh/AndreGismo/jupyter-book-test/HEAD
+  binderhub_url: https://mybinder.org
   thebe: true
