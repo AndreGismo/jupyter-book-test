@@ -21,3 +21,4 @@ repository:
   
 launch_buttons:
   binderhub_url: https://mybinder.org/v2/gh/AndreGismo/jupyter-book-test/makeExecutableBook
+  thebe: true
