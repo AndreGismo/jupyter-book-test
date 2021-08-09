@@ -48,9 +48,9 @@
     <script src="_static/sphinx-book-theme.7d483ff0a819d6edff12ce0b1ead3928.js"></script>
     <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
     <script >
-        const thebe_selector = ".thebe"
-        const thebe_selector_input = "pre"
-        const thebe_selector_output = ".output"
+        const thebe_selector = ".thebe,.cell"
+        const thebe_selector_input = "pre,.cell_input div.highlight"
+        const thebe_selector_output = ".output,.cell_output"
     </script>
     <script async="async" src="_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
@@ -177,14 +177,16 @@
                 
   <section id="jupyter-book-test">
 <h1>jupyter-book-test<a class="headerlink" href="#jupyter-book-test" title="Permalink to this headline">¶</a></h1>
-<p>jupyter book testen</p>
+<p>Hier geht es zum <a class="reference external" href="https://andregismo.github.io/jupyter-book-test/">jupyter book</a></p>
+<p>Und hier zu binder:</p>
+<p><a class="reference external" href="https://mybinder.org/v2/gh/AndreGismo/jupyter-book-test/makeExecutableBook"><img alt="Binder" src="https://mybinder.org/badge_logo.svg" /></a></p>
 </section>
 
     <script type="text/x-thebe-config">
     {
         requestKernel: true,
         binderOptions: {
-            repo: "binder-examples/jupyter-stacks-datascience",
+            repo: "AndreGismo/jupyter-book-test",
             ref: "master",
         },
         codeMirrorConfig: {
