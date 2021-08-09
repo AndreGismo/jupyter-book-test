@@ -13,3 +13,12 @@ html:
 sphinx:
   config:
     html_show_copyright: false
+    
+    
+repository:
+  url: https://github.com/AndreGismo/jupyter-book-test  
+  branch: master
+  
+launch_buttons:
+  binderhub_url: https://mybinder.org/v2/gh/AndreGismo/jupyter-book-test/makeExecutableBook
+  thebe: true

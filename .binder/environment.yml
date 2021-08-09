@@ -1,0 +1,9 @@
+name: binder_env
+channels:
+  - conda-forge
+  - defaults
+  - conda-forge/label/broken
+dependencies:
+  - matplotlib=3.3.4
+  - pandas=1.2.4
+
